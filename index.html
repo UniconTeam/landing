@@ -5,48 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Flying Boat</title>
     <meta name="description" content="Discord community: games, programming, memes." />
-    <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['Nunito', 'sans-serif'],
-              display: ['Comfortaa', 'cursive'],
-            },
-            colors: {
-              magic: {
-                dark: '#0f172a',
-                primary: '#4f46e5',
-                secondary: '#8b5cf6',
-                accent: '#06b6d4',
-                glow: '#22d3ee',
-              }
-            },
-            animation: {
-              'float': 'float 6s ease-in-out infinite',
-              'pulse-glow': 'pulse-glow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-              'wave': 'wave 10s linear infinite',
-            },
-            keyframes: {
-              float: {
-                '0%, 100%': { transform: 'translateY(0)' },
-                '50%': { transform: 'translateY(-20px)' },
-              },
-              'pulse-glow': {
-                '0%, 100%': { opacity: '0.6', transform: 'scale(1)' },
-                '50%': { opacity: '1', transform: 'scale(1.05)' },
-              },
-              wave: {
-                '0%': { transform: 'translateX(0)' },
-                '100%': { transform: 'translateX(-50%)' },
-              }
-            }
-          }
-        }
-      }
-    </script>
+    <link href="./index.css" rel="stylesheet">
     <style>
       body {
         background-color: #020617;
